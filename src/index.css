@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  background-color: #526D82 !important;
+}
+
+button:hover {
+  background-color: #6096B4 !important;/* Slightly darker green on hover */
+}
+
+/* Add Property Form */
+.add-property-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px; /* Increased top and bottom padding */
+}
+
+.add-property-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px; /* Increased padding */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Increased box shadow */
+}
+
+.add-property-form h2 {
+  text-align: center;
+  margin-bottom: 30px; /* Increased bottom margin */
+  color: #333; /* Changed heading color */
+  font-size: 24px; /* Increased font size */
+  font-weight: 600; /* Increased font weight */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Increased bottom margin */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px; /* Increased bottom margin */
+  font-weight: 500; /* Increased font weight */
+  color: #555; /* Changed label color */
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 12px 10px; /* Increased padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; /* Increased font size */
+  background-color: #fff; /* Added background color */
+  transition: border-color 0.3s ease; /* Added transition for border color */
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #28a745; /* Changed focus border color */
+}
+
+.error {
+  color: #dc3545; /* Changed error color */
+  font-size: 0.9em;
+  margin-top: 5px; /* Added top margin */
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px; /* Increased padding */
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px; /* Increased font size */
+  font-weight: 500; /* Increased font weight */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+

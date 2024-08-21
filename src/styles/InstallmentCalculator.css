@@ -1,0 +1,68 @@
+/* src/styles/InstallmentCalculator.css */
+.installment-calculator {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.installment-calculator h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.installment-calculator input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.installment-calculator button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4a4a4a;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.installment-calculator .installment-result {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .installment-calculator input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .installment-calculator button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .installment-calculator .installment-result {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .installment-calculator input {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .installment-calculator button {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .installment-calculator .installment-result {
+    font-size: 12px;
+  }
+}

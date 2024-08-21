@@ -1,0 +1,278 @@
+/* .manage-clients {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: inline-flex;
+    padding: 10px;
+    margin: 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1.2;
+    text-align: center;
+    white-space: nowrap;
+    transition: background-color 0.2s;
+  }
+
+  .b {
+    display: inline-flex;
+  }
+  
+  .btn-approve {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .btn-approve:hover {
+    background-color: #45a049;
+  }
+  
+  .btn-reject {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .btn-reject:hover {
+    background-color: #d32f2f;
+  }
+  
+  @media screen and (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 6px;
+    }
+  
+    .btn {
+      padding: 3px 6px;
+      font-size: 11px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+    
+    thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+    
+    tr {
+      margin-bottom: 10px;
+      border-bottom: 2px solid #ddd;
+    }
+    
+    td {
+      border: none;
+      position: relative;
+      padding-left: 50%;
+      padding-bottom: 5px;
+    }
+    
+    td:before {
+      content: attr(data-label);
+      position: absolute;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      font-weight: bold;
+    }
+    
+    .btn {
+      display: inline-block;
+      width: auto;
+      min-width: 60px;
+    }
+  } */
+
+
+  /* Container */
+.manage-clients {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px; /* Increased the padding for better spacing */
+  background-color: #f8f8f8; /* Added a light background color */
+  border-radius: 8px; /* Added rounded corners */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow */
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-bottom: 30px; /* Increased the bottom margin for better spacing */
+  color: #333; /* Changed the heading color */
+  font-size: 24px; /* Increased the font size */
+  font-weight: 600; /* Increased the font weight */
+}
+
+/* Table Container */
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 30px; /* Added bottom margin for better spacing */
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white; /* Added a white background for the table */
+  border-radius: 6px; /* Added rounded corners for the table */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow */
+}
+
+th, td {
+  padding: 12px 16px; /* Increased the padding for better readability */
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0; /* Changed the border color */
+}
+
+th {
+  background-color: #f5f5f5; /* Changed the header background color */
+  font-weight: 600; /* Increased the font weight for the headers */
+  color: #333; /* Changed the header text color */
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  padding: 10px 16px; /* Increased the padding for better size */
+  margin: 8px;
+  border: none;
+  border-radius: 4px; /* Increased the border radius for a more rounded look */
+  cursor: pointer;
+  font-size: 14px; /* Increased the font size */
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+}
+
+.b {
+  display: inline-flex;
+}
+
+.btn-approve {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-approve:hover {
+  background-color: #45a049;
+}
+
+.btn-reject {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-reject:hover {
+  background-color: #d32f2f;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .manage-clients {
+    padding: 20px; /* Reduced the padding for smaller screens */
+  }
+
+  h2 {
+    font-size: 20px; /* Reduced the font size for smaller screens */
+  }
+
+  table {
+    font-size: 14px; /* Reduced the font size for smaller screens */
+  }
+
+  th, td {
+    padding: 10px 12px; /* Reduced the padding for smaller screens */
+  }
+
+  .btn {
+    padding: 8px 12px; /* Reduced the padding for smaller screens */
+    font-size: 12px; /* Reduced the font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .manage-clients {
+    padding: 15px; /* Further reduced the padding for extra-small screens */
+  }
+
+  h2 {
+    font-size: 18px; /* Further reduced the font size for extra-small screens */
+  }
+
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+  }
+
+  td {
+    border: none;
+    position: relative;
+    padding-left: 50%;
+    padding-bottom: 8px;
+  }
+
+  td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+
+  .btn {
+    display: inline-block;
+    width: auto;
+    min-width: 60px;
+  }
+}

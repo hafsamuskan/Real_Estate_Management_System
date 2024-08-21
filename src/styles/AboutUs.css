@@ -1,0 +1,166 @@
+.about-us {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Section */
+  .header-section {
+    background-image: url('/public/images/Home.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-top: 0.2%;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 50, 0.5);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .overlay h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .overlay p {
+    font-size: 18px;
+  }
+  
+  /* About Company Section */
+  .about-company {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about-company h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .about-company p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .company-image img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Company Unique Factor Section */
+  .unique-factors {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .unique-factors h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .factors-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .factor-item {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Meet Our Team Section */
+  .meet-team {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .meet-team h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+  }
+  
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Footer Section */
+  .footer-section {
+    background-color: #526D82;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .try-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    background-color: #526D82;
+  }
+  
+  .footer-col h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-col ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .footer-col input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+  }
+  

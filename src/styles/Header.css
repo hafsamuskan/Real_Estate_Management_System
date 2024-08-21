@@ -1,0 +1,80 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #526D82;
+  color: white;
+  }
+  .header h1 {
+  margin-left: 3%;
+  font-size: 24px;
+  font-weight: bold;
+  }
+  .header nav {
+  display: flex;
+  align-items: center;
+  }
+  .header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 20px;
+  }
+  .header nav ul li {
+  margin-right: 20px;
+  cursor: pointer;
+  }
+  .header nav ul li a {
+  /* color: #f2f2f2; */
+  text-decoration: none;
+  font-size: 17px;
+  font-weight:normal;
+  padding: 8px 10px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  color: inherit;
+  }
+
+  nav ul li a.active,
+  nav ul li a:hover{
+    color: #526D82;
+    background: #fff;
+  }
+
+  .submit-property {
+  background-color: #4a4a4a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  }
+  .burger-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 3%;
+  }
+  @media (max-width: 768px) {
+  .header nav ul {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background-color: #526D82;
+  padding: 20px 0;
+  z-index: 1;
+  }
+  .header nav ul li {
+  margin-bottom: 10px;
+  }
+  .burger-icon {
+  display: block;
+  }
+  .header nav.open ul {
+  display: flex;
+  }
+  }

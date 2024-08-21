@@ -1,0 +1,29 @@
+/* src/styles/PropertiesPage.css */
+.properties-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .properties-page h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .property-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .property-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .property-grid {
+      grid-template-columns: 1fr;
+    }
+  }

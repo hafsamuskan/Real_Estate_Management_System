@@ -1,0 +1,163 @@
+/* AgentDashboard.css */
+
+.dashboard {
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+   
+  }
+  .agent-dashboard{
+    background-image: url('../../public/images/property-details.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-avatar {
+    font-size: 2em;
+    margin-right: 15px;
+  }
+  
+  .user-details h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .user-details p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .header-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  .btn-dark:hover {
+    background-color: #555;
+  }
+  
+  .listings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .listings-header h2 {
+    margin: 0;
+  }
+  
+  .listings-header p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .search-filter {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .search-bar input {
+    border: none;
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .search-icon {
+    color: #666;
+  }
+  
+  .property-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .property-table th,
+  .property-table td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .property-table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+  }
+  
+  .btn-icon {
+    /* background: none; */
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .btn-icon:hover {
+    color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header-actions {
+      margin-top: 15px;
+    }
+  
+    .listings-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .listings-header button {
+      margin-top: 10px;
+    }
+  
+    .property-table {
+      font-size: 14px;
+    }
+  
+    .property-table th,
+    .property-table td {
+      padding: 8px;
+    }
+  }

@@ -1,0 +1,109 @@
+/* PropertyDetails.css */
+.property-details-container {
+    display: flex; 
+    background-image: url('../../public/images/property-details.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    padding: 200px;
+    max-width: 1200px;
+    margin: 0;
+    
+  }
+  
+  .property-details {
+    flex: 2;
+    margin-right: 20px;
+    margin-top: 0px !important;
+    padding: 0px !important;
+  }
+  
+  .property-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .details-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .details-container p {
+    margin-bottom: 10px;
+  }
+  
+  .agent-card {
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    align-self: flex-start;
+    position: sticky;
+    top: 20px;
+  }
+  
+  .agent-image {
+    width: 80%;
+    margin-left: 8%;
+    margin-right: -10%;
+    max-height: 40%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .agent-card h2 {
+    margin-bottom: 10px;
+    text-align: left !important;
+  }
+  
+  .agent-card p {
+    margin-bottom: 5px;
+  }
+
+  .amenities-section, .facilities-section {
+    margin-top: 20px;
+  }
+  
+  .amenities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .amenity-item, .facility-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkmark {
+    color: #4CAF50;
+    margin-right: 5px;
+  }
+  .pdt {
+    background-color: #DDE6ED;
+    border-radius: 3%;
+  }
+
+  
+  @media (max-width: 768px) {
+    .property-details-container {
+      flex-direction: column;
+    }
+  
+    .property-details {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .agent-card {
+      position: static;
+    }
+  }
