@@ -5,9 +5,9 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
-//import javax.validation.constraints.Size;
+
 import java.io.Serializable;
-//import org.hibernate.validator.constraints.URL;
+
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -59,7 +59,7 @@ public class Property implements Serializable{
     @Pattern(regexp = "^(Available|Sold|Rented)$", message = "Property status must be 'Available', 'Sold', or 'Rented'")
     private String propertyStatus;
     
-//    private String username;
+
     
     
     public Property(Long id, byte[] imageUrl,
@@ -127,16 +127,7 @@ public class Property implements Serializable{
 	}
 
 
-//
-//	public String getUsername() {
-//		return username;
-//	}
-//
-//
-//
-//	public void setUsername(String username) {
-//		this.username = username;
-//	}
+
 	
 	
 	
