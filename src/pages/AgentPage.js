@@ -1,4 +1,3 @@
-// src/pages/AgentPage.js
 import React from 'react';
 
 const AgentPage = () => (
