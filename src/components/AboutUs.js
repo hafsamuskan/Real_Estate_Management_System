@@ -4,7 +4,6 @@ import '../styles/AboutUs.css';
 const AboutUs = () => {
   return (
     <div className="about-us">
-      {/* Header Section */}
       <section className="header-section">
         <div className="overlay">
           <h1>About us</h1>
@@ -14,7 +13,7 @@ const AboutUs = () => {
       </section>
 
      
-      {/* Meet Our Team Section */}
+     
       <section className="meet-team">
         <h2>Meet Our Team</h2>
         <div className="team-members">
@@ -51,7 +50,6 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* Footer Section */}
       <section className="footer-section">
   
   <div className="footer">
