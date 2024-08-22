@@ -1,4 +1,3 @@
-// src/pages/AgentsPage.js
 import React from 'react';
 import AgentCard from '../components/AgentCard';
 import '../styles/AgentsPage.css';
