@@ -1,4 +1,3 @@
-// src/components/InstallmentCalculator.js
 import React, { useState } from 'react';
 import '../styles/InstallmentCalculator.css';
 
