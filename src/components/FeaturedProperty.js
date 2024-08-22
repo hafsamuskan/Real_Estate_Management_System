@@ -1,4 +1,3 @@
-// src/components/FeaturedProperty.js
 import React from 'react';
 import '../styles/FeaturedProperty.css';
 
