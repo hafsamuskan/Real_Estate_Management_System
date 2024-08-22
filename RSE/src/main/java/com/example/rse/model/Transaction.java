@@ -41,10 +41,7 @@ public class Transaction {
     @Pattern(regexp = "^(Apartment|House|Villa|Land|Commercial)$", message = "Property type must be one of the following: Apartment, House, Villa, Land, Commercial")
     private String propertyType;
     
-//    @Column(nullable = false, length = 5)
-//    @NotBlank(message = "BHK type is required")
-//    @Pattern(regexp = "^[0-9]+[BHK]{3}$", message = "BHK type should be in a valid format like '2BHK', '3BHK'")
-//    private String bhkType;
+   
     
     @Column(nullable = false, length = 10)
     @NotBlank(message = "Deal type is required")
@@ -55,8 +52,7 @@ public class Transaction {
     @Min(value = 0, message = "Transaction amount must be a positive number")
     private Double transactionAmount;
     
-//    @Column(nullable = false, length = 10)
-//    private Long clientPhone;
+
     
     private String clientEmail;
     
@@ -76,12 +72,7 @@ public class Transaction {
 	public void setAgentName(String agentName) {
 		this.agentName = agentName;
 	}
-//	public Long getClientPhone() {
-//		return clientPhone;
-//	}
-//	public void setClientPhone(Long clientPhone) {
-//		this.clientPhone = clientPhone;
-//	}
+
 	public void setId(Long id) {
 		this.id = id;
 	}
@@ -127,5 +118,5 @@ public class Transaction {
     
     
 
-    // Getters and Setters
+    
 }
