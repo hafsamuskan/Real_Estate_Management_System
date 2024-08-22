@@ -12,7 +12,7 @@ const RegistrationForm = () => {
     mobileNumber: '',
     password: '',
     confirmPassword: '',
-    role: 'client', // Default role
+    role: 'client', 
   });
   const [errors, setErrors] = useState({});
   const navigate = useNavigate();
@@ -65,7 +65,6 @@ const RegistrationForm = () => {
       [name]: value,
     }));
 
-    // Validate the field as the user types
     validateField(name, value);
   };
 
@@ -87,7 +86,6 @@ const RegistrationForm = () => {
     axios.post('http://localhost:8080/api/users/register', formData)
       .then(response => {
         console.log(response.data);
-        // navigate(`/${response.data.role}-dashboard`);
         navigate('/login');
       })
       .catch(error => {
