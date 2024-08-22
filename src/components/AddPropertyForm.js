@@ -82,8 +82,6 @@ const AddPropertyForm = ({ username }) => {
     }
   };
 
-
-
   useEffect(() => {
         if (propertyId) {
           const fetchImage = async () => {
