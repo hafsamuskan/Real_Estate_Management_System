@@ -1,4 +1,3 @@
-// src/components/AgentCard.js
 import React from 'react';
 
 const AgentCard = ({ name, email, phone, specialization, image }) => {
