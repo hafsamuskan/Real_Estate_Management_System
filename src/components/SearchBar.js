@@ -1,4 +1,3 @@
-// src/components/SearchBar.js
 import React from 'react';
 import '../styles/SearchBar.css';
 
@@ -12,7 +11,7 @@ const SearchBar = ({ searchTerm, setSearchTerm }) => {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
-      {/* <button>Find Now</button> */}
+
     </div>
   );
 };
