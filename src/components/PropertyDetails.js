@@ -5,7 +5,7 @@ import '../styles/PropertyDetails.css';
 import '../styles/PopupForm.css';
 
 const PropertyDetails = () => {
-  // ... (previous state and useEffect code remains the same)
+ 
   const { id } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
@@ -56,7 +56,7 @@ const PropertyDetails = () => {
     { name: "Cross Streets", value: "Stall Shower" }
   ];
 
-  // ... (handleContactOwner and handleSubmitForm functions remain the same)
+  
   const handleContactOwner = async () => {
     setShowForm(true);
   };
@@ -134,7 +134,7 @@ const PropertyDetails = () => {
       </div>
       
       <div className="agent-card">
-        {/* <img src={'../images/hafsa.jpg'} alt={'agent'} className="agent-image" width="10%" height="5%"/> */}
+       
         <h2>Hafsa</h2>
         <p><strong>Email:</strong> hafsa@gmail.com</p>
         <p><strong>Phone:</strong> 9878678956</p>
