@@ -12,7 +12,7 @@ const ClientDashboard = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const username = localStorage.getItem('username'); // Get the username from localStorage
+    const username = localStorage.getItem('username'); 
     const role = localStorage.getItem('role');
     const token = localStorage.getItem('token');
 
