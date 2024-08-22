@@ -18,7 +18,7 @@ const AddPropertyForm = ({ username }) => {
 
   const [propertyId, setPropertyId] = useState(null);
 
-  const [imagePreviewUrl, setImagePreviewUrl] = useState(''); // State for image preview
+  const [imagePreviewUrl, setImagePreviewUrl] = useState(''); 
 
   const handleChange = (e) => {
     const { name, value, type, files } = e.target;
@@ -27,7 +27,7 @@ const AddPropertyForm = ({ username }) => {
         ...propertyDetails,
         imageUrl: files[0],
       });
-       // Create a preview of the selected image
+      
       const reader = new FileReader();
       reader.onloadend = () => {
         setImagePreviewUrl(reader.result);
@@ -57,14 +57,6 @@ const AddPropertyForm = ({ username }) => {
     formData.append('propertyStatus', propertyDetails.propertyStatus);
 
     try {
-      // Create the property first
-      // const response = await axios.post('http://localhost:8080/api/properties/create', formData, {
-      //   headers: {
-      //     'Content-Type': 'multipart/form-data',
-
-      //   },
-      // });
-
       const response = await axios.post('http://localhost:8080/api/properties/create?username=' + username, formData, {
         headers: {
             'Content-Type': 'multipart/form-data',
@@ -72,7 +64,7 @@ const AddPropertyForm = ({ username }) => {
     });
 
       if (response.status === 200) {
-        const propertyId = response.data.id; // Assuming the response contains the created property ID
+        const propertyId = response.data.id; 
         alert('Property added successfully!');
         setPropertyDetails({
           imageUrl: null,
@@ -96,18 +88,14 @@ const AddPropertyForm = ({ username }) => {
         if (propertyId) {
           const fetchImage = async () => {
             try {
-              // Fetch the image associated with the property
               const imageResponse = await axios.get(`http://localhost:8080/api/properties/image/${propertyId}`, {
-                responseType: 'arraybuffer', // Important to handle binary data
+                responseType: 'arraybuffer', 
               });
     
               if (imageResponse.status === 200) {
-                // Convert the image data to a base64 string for display
                 const imageBase64 = Buffer.from(imageResponse.data, 'binary').toString('base64');
-                const imageSrc = `data:image/jpeg;base64,${imageBase64}`; // Adjust the MIME type if necessary
-    
-                // Display the image on the frontend
-                document.getElementById('propertyImage').src = imageSrc; // Assuming you have an img element with this ID
+                const imageSrc = `data:image/jpeg;base64,${imageBase64}`; 
+                document.getElementById('propertyImage').src = imageSrc;
               }
             } catch (error) {
               console.error('Error fetching image:', error);
