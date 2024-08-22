@@ -1,7 +1,3 @@
-
-
-
-
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
@@ -26,13 +22,7 @@ const LoginForm = () => {
       isValid = false;
     }
 
-    // if (!password) {
-    //   tempErrors["password"] = "Password is required";
-    //   isValid = false;
-    // } else if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(password)) {
-    //   tempErrors["password"] = "Password must be at least 8 characters long and include a number, an uppercase letter, a lowercase letter, and a special character";
-    //   isValid = false;
-    // }
+   
 
     setErrors(tempErrors);
     return isValid;
