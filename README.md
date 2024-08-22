@@ -50,8 +50,8 @@ npm start
   <li><b><a href="https://github.com/hafsamuskan">Hafsa Muskan Shaik</a></b></li>
   <li><b><a href="https://github.com/shruti-tiwarii">Shruti Tiwari</a></b></li>
   <li><b><a href="https://github.com/sakshi13062004">Sakshi Kumari</a></b></li>
-  <li><b><a href="">Nikitha Vemula</a></b></li>
-  <li><b><a href="">Thiriksha Ganesan</a></b></li>
-  <li><b><a href="">Saravanan B</a></b></li>
+  <li><b><a href="https://github.com/nikki-60">Nikitha Vemula</a></b></li>
+  <li><b><a href="https://github.com/3kshaganesan">Thiriksha Ganesan</a></b></li>
+  <li><b><a href="https://github.com/Saravananbabu2003">Saravanan B</a></b></li>
 </ul>
 
