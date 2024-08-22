@@ -26,7 +26,6 @@ const TransactionPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Transaction data:', transactionData);
-    // Here you would typically send this data to your backend
   };
 
   return (
