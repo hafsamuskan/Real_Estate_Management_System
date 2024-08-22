@@ -34,10 +34,6 @@ public class UserService {
         userRepository.deleteById(id);
     }
     
-//    public Optional<User> validateUser(String email, String password, String role) {
-//        return userRepository.findByEmailAndRole(email, role)
-//            .filter(user -> user.getPassword().equals(password));
-//    }
 
 	
 }
