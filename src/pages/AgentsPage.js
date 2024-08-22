@@ -4,7 +4,7 @@ import AgentCard from '../components/AgentCard';
 import '../styles/AgentsPage.css';
 
 const AgentsPage = () => {
-  // This would typically come from an API or database
+  
   const agents = [
     {
       id: 1,
