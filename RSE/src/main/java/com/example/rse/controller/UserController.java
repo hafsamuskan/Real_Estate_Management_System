@@ -38,12 +38,6 @@ public class UserController {
 	  }
     
     
-//    @PostMapping("/login")
-//    public ResponseEntity<?> login(@RequestBody LoginRequest loginRequest) {
-//        return userService.validateUser(loginRequest.getUsername(), loginRequest.getPassword(), loginRequest.getRole())
-//            .map(user -> ResponseEntity.ok(new LoginResponse(user.getRole(), user.getName(), "mock-token")))
-//            .orElse(ResponseEntity.status(401).body("Invalid email, password, or role"));
-//    }
     
     
     @PostMapping("/register")
