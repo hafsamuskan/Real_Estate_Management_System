@@ -1,6 +1,6 @@
 package com.example.rse.model;
 
-//InterestedTenant.java
+
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -45,6 +45,5 @@ public void setPropertyId(Long propertyId) {
 	this.propertyId = propertyId;
 }
 
- // Constructors, getters, and setters
- // ...
+
 }
